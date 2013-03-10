@@ -21,6 +21,7 @@
 {
     _flipCount = flipCount;
     self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
+    // this is a test edit
 }
 
 - (IBAction)flipCard:(UIButton *)sender
